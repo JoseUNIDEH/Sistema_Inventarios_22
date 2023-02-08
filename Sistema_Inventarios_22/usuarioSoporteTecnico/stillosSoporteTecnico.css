@@ -1,0 +1,46 @@
+﻿.input {
+    font-family: principal;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #BC955B;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+
+.input:focus {
+    background-color: whitesmoke;
+    border: 3px solid #065471;
+    color: #065471;
+    padding: 13px 13px 13px 54px;
+}
+
+.inputComent {
+    font-family: principal;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #BC955B;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.inputComent:focus {
+    font-family: principal;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: whitesmoke;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+}
+
+
