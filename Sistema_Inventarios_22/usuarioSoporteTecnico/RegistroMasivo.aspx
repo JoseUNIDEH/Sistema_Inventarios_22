@@ -12,7 +12,7 @@
         </asp:GridView><br /><br />
 
 
-        <asp:Button ID="btnsubir" class="btn btn-success col-3" runat="server" Text="Guardar" OnClick="btnGuardar" OnClientClick='return confirm ("¿Confirmas que deseas ingresar la informacion?");' />
+        <asp:Button ID="btnsubir" class="btn btn-success col-3" runat="server" Text="Guardar" OnClick="btnGuardar" OnClientClick='return confirm ("¿Confirmas que deseas ingresar la información?");' />
         <Button ID="btnvolver" class="btn btn-danger col-3" runat="server" onserverclick="btnVolver"> Volver</Button>
 
     </div>

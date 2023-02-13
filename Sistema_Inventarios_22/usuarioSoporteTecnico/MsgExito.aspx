@@ -7,7 +7,7 @@
 
         <asp:Image ID="Image1" runat="server" src="https://www.ask-aladdin.com/assets/imgs/right.png" Width="400" Height="400"/>
 
-        <asp:Button ID="btnVolvermenu" runat="server" Text="Volver a menu" class="btn btn-success" onclick="btnVolverMenu"/>
+        <asp:Button ID="btnVolvermenu" runat="server" Text="Volver a menú" class="btn btn-success" onclick="btnVolverMenu"/>
     </div>
 
 </asp:Content>

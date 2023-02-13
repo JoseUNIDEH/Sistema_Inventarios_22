@@ -6,7 +6,7 @@
         }
     </style>
 
-    <h1 align="center"> LLena la informacion correspondiente</h1>
+    <h1 align="center"> LLena la información correspondiente</h1>
     <asp:Image ID="imgregistro" runat="server" src="https://cdn-icons-png.flaticon.com/512/5146/5146927.png" With="80" Height="80" ImageAlign="Right"/>
     <br />
 
@@ -28,7 +28,7 @@
 
         <div class="row jaling-items-start">
             <div class="col" runat="server" align="center" >
-                <asp:Label ID="lbcategoria" runat="server" Text="Categoria"></asp:Label><br />
+                <asp:Label ID="lbcategoria" runat="server" Text="Categoría"></asp:Label><br />
                 <asp:TextBox ID="tbcategoria" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
             <div class="col" align="center">
@@ -36,7 +36,7 @@
                 <asp:TextBox ID="tbmodelo" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
             <div class="col" align="center">
-                <asp:Label ID="lbaño" runat="server" Text="Año de adquisicion"></asp:Label><br />
+                <asp:Label ID="lbaño" runat="server" Text="Año de adquisición"></asp:Label><br />
                 <asp:TextBox ID="tbaño" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
         </div>
@@ -68,7 +68,7 @@
         </div><br />
 
         <div id="alert" runat="server" class="alert alert-danger alert-dismissible fade show" role="alert" visible="false" >
-          <strong>No se ha podido gaurdar!</strong><asp:label id="lberror" runat="server"></asp:label>
+          <strong>No se ha podido guardar!</strong><asp:label id="lberror" runat="server"></asp:label>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
 

@@ -6,7 +6,7 @@
         }
     </style>
 
-    <h1 align="center"> Selecciona operacion a realizar</h1>
+    <h1 align="center"> Selecciona la operación a realizar</h1>
 
     <div class="container">
         <div class="row aling-items-start">

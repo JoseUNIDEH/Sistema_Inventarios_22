@@ -112,6 +112,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Css\Master.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -124,7 +125,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Img\BotonAcceder.png" />
+    <Content Include="Img\resguardo.png" />
     <Content Include="Img\Logo.png" />
+    <Content Include="Img\Logotipo armas oro v16.png" />
+    <Content Include="Img\Logotipo3.png" />
+    <Content Include="Img\Logotipo7.png" />
     <Content Include="Inventario.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Logueo\Default.aspx" />
@@ -167,6 +172,7 @@
     <Content Include="usuarioSoporteTecnico\menuSoporteTecnico.aspx" />
     <Content Include="usuarioSoporteTecnico\MsgExito.aspx" />
     <Content Include="usuarioSoporteTecnico\RegistroMasivo.aspx" />
+    <Content Include="usuarioSoporteTecnico\Resguardo.aspx" />
     <Content Include="usuarioSoporteTecnico\stillosSoporteTecnico.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -286,6 +292,13 @@
     </Compile>
     <Compile Include="usuarioSoporteTecnico\RegistroMasivo.aspx.designer.cs">
       <DependentUpon>RegistroMasivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\Resguardo.aspx.cs">
+      <DependentUpon>Resguardo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\Resguardo.aspx.designer.cs">
+      <DependentUpon>Resguardo.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

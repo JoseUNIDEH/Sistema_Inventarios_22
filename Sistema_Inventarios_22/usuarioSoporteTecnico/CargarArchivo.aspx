@@ -2,7 +2,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="content" align="center">
-        <h1 align="center"> Selecciona la operacion a realizar</h1>
+        <h1 align="center"> Selecciona la operación a realizar</h1>
         <asp:Image ID="imgregistromasivo" runat="server" src="https://cdn-icons-png.flaticon.com/512/4409/4409421.png" With="80" Height="80" ImageAlign="Right"/>
         <br />
 
@@ -18,7 +18,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
        
-        <Button ID="btnvolver" class="btn btn-danger" runat="server" onserverclick="btnVolver"> Volver a menu anterior</Button>
+        <Button ID="btnvolver" class="btn btn-danger" runat="server" onserverclick="btnVolver"> Volver a menú anterior</Button>
 
     </div>
 

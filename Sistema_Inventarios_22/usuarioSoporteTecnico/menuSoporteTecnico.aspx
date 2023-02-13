@@ -6,7 +6,7 @@
         }
     </style>
 
-    <h1 align="center"> Selecciona operacion a realizar</h1><br />
+    <h1 align="center"> Selecciona la operación a realizar</h1><br />
 
     <div class="container">
         <div class="row jaling-items-start">
@@ -14,7 +14,7 @@
                  <asp:Image ID="Imageopc1" runat="server" src="https://cdn-icons-png.flaticon.com/512/5146/5146927.png" With="180" Height="180"/><br />
                  <asp:Label ID="titleopc1" runat="server" Text="Registro de equipo"></asp:Label>
             </div>
-            <div class="col btn btn-outline-danger" align="center">
+            <div class="col btn btn-outline-danger" align="center" onclick="btnAsignarResguardo()">
                 <asp:Image ID="Imageopc2" runat="server" src="https://i.pinimg.com/originals/c2/85/b2/c285b2f72496df1f4c2649bd2beb7246.png" With="180" Height="180"/><br />
                 <asp:Label ID="titleopc2" runat="server" Text="Asignar resguardo"></asp:Label>
             </div>
@@ -39,7 +39,7 @@
             </div>
             <div class="col btn btn-outline-danger" align="center">
                 <asp:Image ID="Imageopc7" runat="server" src="https://cdn-icons-png.flaticon.com/512/5353/5353364.png" With="180" Height="180"/><br />
-                <asp:Label ID="titleopc7" runat="server" Text="Crear catalogo"></asp:Label>
+                <asp:Label ID="titleopc7" runat="server" Text="Crear catálogo"></asp:Label>
             </div>
             <div class="col btn btn-outline-danger" align="center">
                 <asp:Image ID="Imageopc8" runat="server" src="https://www.seekpng.com/png/full/426-4261981_cartas-y-facturas-icono-hoja-de-papel.png" With="180" Height="180"/><br />
@@ -52,6 +52,8 @@
         function btnRegistroEquipo() {
             window.location.href = "MenuRegistroEquipo.aspx";
         }
-
+        function btnAsignarResguardo() {
+            window.location.href = "Resguardo.aspx";
+        }
     </script>
 </asp:Content>
