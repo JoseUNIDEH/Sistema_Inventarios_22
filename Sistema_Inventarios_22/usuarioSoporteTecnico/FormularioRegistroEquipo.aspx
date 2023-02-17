@@ -12,7 +12,7 @@
 
     <div class="container" align="center">
         <div class="row jaling-items-start">
-            <div class="col" runat="server" align="center" onclick="btnRegistro()">
+            <div class="col" runat="server" align="center">
                 <asp:Label ID="lbinventario" runat="server" Text="Inventario"></asp:Label><br />
                 <asp:TextBox ID="tbinventario" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
