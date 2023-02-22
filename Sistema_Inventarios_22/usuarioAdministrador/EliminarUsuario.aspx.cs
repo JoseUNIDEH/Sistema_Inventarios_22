@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Windows;
 
 namespace Sistema_Inventarios_22.usuarioAdministrador
 {
@@ -15,11 +16,11 @@ namespace Sistema_Inventarios_22.usuarioAdministrador
 
         }
 
-        [WebMethod]
         public static void acepto()
         {
+
+            MessageBox.Show("Llegue");
             EliminarUsuario cls1 = new EliminarUsuario();
-            cls1.prueba.InnerText = "llegue";
             //cls1.btnEliminar();
         }
 

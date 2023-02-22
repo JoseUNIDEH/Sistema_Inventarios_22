@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -171,9 +172,13 @@
     <Content Include="usuarioRecursosMateriales\menuRecursosMateriales.aspx" />
     <Content Include="usuarioSoporteTecnico\CargarArchivo.aspx" />
     <Content Include="usuarioSoporteTecnico\FormularioRegistroEquipo.aspx" />
+    <Content Include="usuarioSoporteTecnico\MenuCrearCatalogo.aspx" />
     <Content Include="usuarioSoporteTecnico\MenuRegistroEquipo.aspx" />
     <Content Include="usuarioSoporteTecnico\menuSoporteTecnico.aspx" />
     <Content Include="usuarioSoporteTecnico\MsgExito.aspx" />
+    <Content Include="usuarioSoporteTecnico\NuevaDireccion.aspx" />
+    <Content Include="usuarioSoporteTecnico\NuevoEquipo.aspx" />
+    <Content Include="usuarioSoporteTecnico\NuevoPersonal.aspx" />
     <Content Include="usuarioSoporteTecnico\RegistroMasivo.aspx" />
     <Content Include="usuarioSoporteTecnico\Resguardo.aspx" />
     <Content Include="usuarioSoporteTecnico\stillosSoporteTecnico.css" />
@@ -195,6 +200,7 @@
     <Compile Include="Clases\Access.cs" />
     <Compile Include="Clases\Administrador.cs" />
     <Compile Include="Clases\Registro.cs" />
+    <Compile Include="Clases\SoporteTecnico.cs" />
     <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -291,6 +297,13 @@
     <Compile Include="usuarioSoporteTecnico\FormularioRegistroEquipo.aspx.designer.cs">
       <DependentUpon>FormularioRegistroEquipo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="usuarioSoporteTecnico\MenuCrearCatalogo.aspx.cs">
+      <DependentUpon>MenuCrearCatalogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\MenuCrearCatalogo.aspx.designer.cs">
+      <DependentUpon>MenuCrearCatalogo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="usuarioSoporteTecnico\MenuRegistroEquipo.aspx.cs">
       <DependentUpon>MenuRegistroEquipo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -311,6 +324,27 @@
     </Compile>
     <Compile Include="usuarioSoporteTecnico\MsgExito.aspx.designer.cs">
       <DependentUpon>MsgExito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\NuevaDireccion.aspx.cs">
+      <DependentUpon>NuevaDireccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\NuevaDireccion.aspx.designer.cs">
+      <DependentUpon>NuevaDireccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\NuevoEquipo.aspx.cs">
+      <DependentUpon>NuevoEquipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\NuevoEquipo.aspx.designer.cs">
+      <DependentUpon>NuevoEquipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\NuevoPersonal.aspx.cs">
+      <DependentUpon>NuevoPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarioSoporteTecnico\NuevoPersonal.aspx.designer.cs">
+      <DependentUpon>NuevoPersonal.aspx</DependentUpon>
     </Compile>
     <Compile Include="usuarioSoporteTecnico\RegistroMasivo.aspx.cs">
       <DependentUpon>RegistroMasivo.aspx</DependentUpon>

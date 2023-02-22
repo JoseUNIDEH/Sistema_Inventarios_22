@@ -33,7 +33,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
 
-        <Button ID="btneliminar2" class="btn bg-primary btn-lg" runat="server" onClientclick="ModalPregunta(); return false;" OnServerClick="btnEliminar" >Eliminar</Button>
+        <Button ID="btneliminar2" class="btn bg-primary btn-lg" runat="server" onClientclick="ModalPregunta();" OnServerClick="btnEliminar" >Eliminar</Button>
         <asp:Button ID="btneliminar3" runat="server" Text="Eliminar" class="btn bg-primary btn-lg" OnClick="btnEliminar" OnClientClick='ModalPregunta();'/><br /><br />
         <asp:Button ID="btncancelar" runat="server" Text="Cancelar" class="btn btn-danger btn-lg" OnClick="btnCancelar" />
 
@@ -85,10 +85,10 @@
             event.preventDefault();
             Swal.fire({
                 template: '#my-template2'
-            }).then(resultado => {
+            }).then(resultado => { 
                 if (resultado.value) {
-                    Window.confrim();
-                   // PageMethods.acepto("parámetro de prueba", OnCallSumComplete, OnCallSumError);
+                    alert("java");
+                                                     
                 } else {
                     // Dijeron que no
                     alert("no");

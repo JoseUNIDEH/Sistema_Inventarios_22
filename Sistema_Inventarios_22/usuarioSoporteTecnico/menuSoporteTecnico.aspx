@@ -37,7 +37,7 @@
                 <asp:Image ID="Imageopc6" runat="server" src="https://gruposeyma.com/wp-content/uploads/Servicio-de-Mantenimiento-Correctivo-Icon3-300x300.png" With="180" Height="180"/><br />
                 <asp:Label ID="titleopc6" runat="server" Text="Atender mantenimiento"></asp:Label>
             </div>
-            <div class="col btn btn-outline-danger" align="center">
+            <div class="col btn btn-outline-danger" align="center" onclick="btnCrearCatalogo()">
                 <asp:Image ID="Imageopc7" runat="server" src="https://cdn-icons-png.flaticon.com/512/5353/5353364.png" With="180" Height="180"/><br />
                 <asp:Label ID="titleopc7" runat="server" Text="Crear catálogo"></asp:Label>
             </div>
@@ -54,6 +54,9 @@
         }
         function btnAsignarResguardo() {
             window.location.href = "Resguardo.aspx";
+        }
+        function btnCrearCatalogo() {
+            window.location.href = "MenuCrearCatalogo.aspx";
         }
     </script>
 </asp:Content>
