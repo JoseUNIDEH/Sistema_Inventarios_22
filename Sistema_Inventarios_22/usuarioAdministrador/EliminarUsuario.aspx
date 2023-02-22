@@ -7,14 +7,14 @@
         }
     </style>
     <h1 align="center"> Completa el campo</h1>
-    <asp:Image ID="imgcrearUsuario" runat="server" src="https://cdn-icons-png.flaticon.com/512/2150/2150535.png" With="80" Height="80" ImageAlign="Right"/>
+    <asp:Image ID="imgcrearUsuario" runat="server" src="/Img/man_user_alert.png" With="120" Height="120" ImageAlign="left"/>
     <br />
 
     <div class="container" align="center">
         <div class="container" align="center">
             <div class="row jaling-items-start">
                 <div class="col" runat="server" align="center">
-                    <asp:Label ID="lbnumempleado" runat="server" Text="Numero de empleado"></asp:Label><br />
+                    <asp:Label ID="lbnumempleado" runat="server" Text="Número de empleado"></asp:Label><br />
                     <asp:TextBox ID="tbnumeroempleado" type="text" runat="server" Class="input"></asp:TextBox>
                 </div>
             </div>
@@ -41,7 +41,7 @@
 
     <template id="my-template2">
       <swal-title>
-        ¿Estas seguro que deseas eliminar a este trabajador?
+        ¿Estás seguro que deseas eliminar a este trabajador?
       </swal-title>
       <swal-icon type="question" color="red"></swal-icon>
       <swal-button type="cancel">
@@ -62,7 +62,7 @@
    
     <template id="my-template">
       <swal-title>
-        Accion para el usuario exitosa!
+        Acción para el usuario exitosa!
       </swal-title>
       <swal-icon type="success" color="green"></swal-icon>
       <swal-button  type="confirm">

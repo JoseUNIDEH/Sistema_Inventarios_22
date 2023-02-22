@@ -7,13 +7,13 @@
     </style>
 
     <h1 align="center"> LLena la información correspondiente</h1>
-    <asp:Image ID="imgcrearUsuario" runat="server" src="https://cdn-icons-png.flaticon.com/512/455/455764.png" With="80" Height="80" ImageAlign="Right"/>
+    <asp:Image ID="imgcrearUsuario" runat="server" src="/Img/addusergroup.png" With="120" Height="120" ImageAlign="left"/>
     <br />
 
     <div class="container" align="center">
         <div class="row jaling-items-start">
             <div class="col" runat="server" align="center">
-                <asp:Label ID="lbnumempleado" runat="server" Text="Numero de empleado"></asp:Label><br />
+                <asp:Label ID="lbnumempleado" runat="server" Text="Número de empleado"></asp:Label><br />
                 <asp:TextBox ID="tbnumeroempleado" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
             <div class="col" align="center">
@@ -38,7 +38,7 @@
             <div class="col" align="center">
                 <asp:DropDownList ID="ddluser" runat="server">
                      <asp:ListItem Selected="True" Value="0"> Selecciona un tipo de usuario </asp:ListItem>
-                    <asp:ListItem Value="SoporteTecnico"> Soporte Tecnico </asp:ListItem>
+                    <asp:ListItem Value="SoporteTecnico"> Soporte Técnico </asp:ListItem>
                     <asp:ListItem Value="RecursosMateriales"> Recursos Materiales </asp:ListItem>
                     <asp:ListItem Value="UsuarioInterno"> Usuario Interno </asp:ListItem>
                     <asp:ListItem Value="Administrador"> Administrador </asp:ListItem>
@@ -55,7 +55,7 @@
         </div>
 
         <div id="alert" runat="server" class="alert alert-danger alert-dismissible fade show" role="alert" visible="false" >
-          <strong>No se ha crear usuario!</strong><asp:label id="lberror" runat="server"></asp:label>
+          <strong>No se creo usuario!</strong><asp:label id="lberror" runat="server"></asp:label>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
 

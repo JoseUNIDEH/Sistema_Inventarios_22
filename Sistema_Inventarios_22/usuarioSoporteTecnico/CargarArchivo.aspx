@@ -3,11 +3,11 @@
 
     <div class="content" align="center">
         <h1 align="center"> Selecciona la operación a realizar</h1>
-        <asp:Image ID="imgregistromasivo" runat="server" src="https://cdn-icons-png.flaticon.com/512/4409/4409421.png" With="80" Height="80" ImageAlign="Right"/>
+        <%--<asp:Image ID="imgregistromasivo" runat="server" src="https://cdn-icons-png.flaticon.com/512/4409/4409421.png" With="80" Height="80" ImageAlign="Right"/>--%>
         <br />
-
-        <asp:Image ID="iconocargar" runat="server" src="https://cdn-icons-png.flaticon.com/512/2799/2799721.png" Width="300" Height="300" ImageAlign="AbsBottom"/>
         
+        <asp:Image ID="iconocargar" runat="server" src="../Img/file_xls_masiv.png" alt="Carga masiva" With="165" Height="165" ImageAlign="AbsBottom"/>
+       
         <div></div>
         <asp:FileUpload id="input" runat="server" accept=".xlsx"/>
         <asp:Button ID="btnsubirarchivo" runat="server" Text="Subir" class="btn btn-success" onclick="btnSubir"/>

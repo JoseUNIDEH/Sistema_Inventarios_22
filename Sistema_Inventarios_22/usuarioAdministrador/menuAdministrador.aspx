@@ -11,21 +11,20 @@
     
     <div class="container">
         <div class="row aling-items-start">
-            <div class="col btn btn-outline-danger" align="center" onclick="btnCrearUsuario()">
-                <asp:Image ID="Imageopc1" runat="server" src="https://cdn-icons-png.flaticon.com/512/455/455764.png" With="180" Height="180"/><br />
+          <center>
+            <div class="col-2 btn btn-outline-danger" align="center" onclick="btnCrearUsuario()">
+                <asp:Image ID="Imageopc1" runat="server" src="/Img/user_add.png" With="120" Height="120"/><br />
                 <asp:Label ID="titleopc1" runat="server" Text="Crear usuario"></asp:Label>
             </div>
-            <div class="col btn btn-outline-danger" align="center" onclick="btnModificarUsuario()">
-                <asp:Image ID="Imageopc2" runat="server" src="https://cdn-icons-png.flaticon.com/512/1/1663.png" With="180" Height="180"/><br />
+            <div class="col-2 btn btn-outline-danger" align="center" onclick="btnModificarUsuario()">
+                <asp:Image ID="Imageopc2" runat="server" src="/Img/deactivate user.png" With="120" Height="120"/><br />
                 <asp:Label ID="titleopc2" runat="server" Text="Modificar usuario"></asp:Label>
             </div>
-            <div class="col btn btn-outline-danger" align="center" onclick="btnCancelarUsuario()">
-                <asp:Image ID="Imageopc3" runat="server" src="https://cdn-icons-png.flaticon.com/512/2150/2150535.png" With="180" Height="180"/><br />
+            <div class="col-2 btn btn-outline-danger" align="center" onclick="btnCancelarUsuario()">
+                <asp:Image ID="Imageopc3" runat="server" src="/Img/user_eliminate.png" With="120" Height="120"/><br />
                 <asp:Label ID="titleopc3" runat="server" Text="Cancelar usuario"></asp:Label>
             </div>
-            <div class="col" align="center">
-                
-            </div>
+        </center>
         </div>
     </div>
 

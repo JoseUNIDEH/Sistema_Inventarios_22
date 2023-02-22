@@ -10,20 +10,20 @@
 
     <div class="container">
         <div class="row aling-items-start">
-            <div class="col btn btn-outline-danger" align="center"  >
-                 <asp:Image ID="Imageopc1" runat="server" src="https://cdn-icons-png.flaticon.com/512/4365/4365924.png" With="180" Height="180"/><br />
+          <center>
+            <div class="col-3 btn btn-outline-danger" align="center"  >
+                 <asp:Image ID="Imageopc1" runat="server" src="../Img/consulta.png" alt="Consultar" With="120" Height="120"/><br />
                  <asp:Label ID="titleopc1" runat="server" Text="Consultar Resguardo"></asp:Label>
             </div>
-            <div class="col btn btn-outline-danger" align="center">
-                <asp:Image ID="Imageopc2" runat="server" src="https://uhecucuta.com/wp-content/uploads/2022/02/icono-consultar-examenes.png" With="180" Height="180"/><br />
-                <asp:Label ID="titleopc2" runat="server" Text="Consulta de bajas"></asp:Label>
+            <div class="col-3 btn btn-outline-danger" align="center">
+                <asp:Image ID="Imageopc2" runat="server" src="../Img/consulta_baja.png" alt="Consulta de baja" With="120" Height="120"/><br />
+                <asp:Label ID="titleopc2" runat="server" Text="Consultar bajas de equipo"></asp:Label>
             </div>
-            <div class="col " align="center">
-               
-            </div>
+           
             <div class="col " align="center">
                 
             </div>
+          </center>
         </div><br />
      
     </div>

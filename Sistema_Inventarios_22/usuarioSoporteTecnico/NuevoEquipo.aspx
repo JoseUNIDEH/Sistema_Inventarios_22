@@ -1,14 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Inventario.Master" AutoEventWireup="true" CodeBehind="NuevoEquipo.aspx.cs" Inherits="Sistema_Inventarios_22.usuarioSoporteTecnico.NuevoEquipo" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container"  align="center">
-        <h2 align="center">Completa la informacion del nuevo equipo</h2><br />
+        <h2 align="center">Completa la información del nuevo equipo</h2><br />
 
         <div class="row jaling-items-start">
             <div class="col" runat="server" align="left">
-                <strong><asp:Label ID="lbcategoria" runat="server" Text="Categoria de equipo"></asp:Label></strong><br /> 
-                <asp:Label ID="lbcateexistente" runat="server" Text="Categoria existente"></asp:Label>
+                <strong><asp:Label ID="lbcategoria" runat="server" Text="Categoría de equipo"></asp:Label></strong><br /> 
+                <asp:Label ID="lbcateexistente" runat="server" Text="Categoría existente"></asp:Label>
                 <asp:DropDownList ID="ddlcategoria" runat="server"></asp:DropDownList>
-                <asp:Label ID="lbcatenuevo" runat="server" Text="Categoria nueva"></asp:Label>
+                <asp:Label ID="lbcatenuevo" runat="server" Text="Categoría nueva"></asp:Label>
                 <asp:TextBox ID="tbcategoria" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
         </div>
@@ -52,7 +52,7 @@
 
     <template id="my-template">
       <swal-title id="msjexito">
-        Equipo agregado correctamente al catalogo!
+        Equipo agregado correctamente al catálogo!
       </swal-title>
       <swal-icon type="success" color="green"></swal-icon>
       <swal-button id="confirm" type="confirm">

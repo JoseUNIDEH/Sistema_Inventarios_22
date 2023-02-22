@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Inventario.Master" AutoEventWireup="true" CodeBehind="NuevoPersonal.aspx.cs" Inherits="Sistema_Inventarios_22.usuarioSoporteTecnico.NuevoPersonal" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container"  align="center">
-        <h2 align="center">Completa la informacion del nuevo personal</h2><br />
+        <h2 align="center">Completa la información del nuevo personal</h2><br />
 
         <div class="row jaling-items-start">
             <div class="col" runat="server" align="left">

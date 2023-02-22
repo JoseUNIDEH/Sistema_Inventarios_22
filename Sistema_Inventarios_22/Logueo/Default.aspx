@@ -16,11 +16,12 @@
             <div>
                 <div class="row">
                     <div class="col-2" align="center">
-                        <img src="../Img/Logotipo7.png" alt="Logo" width="160" height="60" class="d-inline-block align-text-top" />
+                        <img src="../Img/Logo.png" alt="Logo" width="300" height="100" class="d-inline-block align-text-top" />
+                       <%-- <img src="../Img/Logotipo7.png" alt="Logo" width="160" height="60" class="d-inline-block align-text-top" />--%>
                     </div>
                     <div class="col-8" align="center">
                         <br />
-                        <h2 style="color: #DDC9A3;">Sistema de inventarios 2022</h2>
+                        <%--<h2 style="color: #DDC9A3;">Sistema de inventarios 2022</h2>--%>
                         <br />
                     </div>
                     <div class="col-2">
@@ -34,7 +35,8 @@
                 <form id="formularioLogueo" runat="server">
                     <div class="form-control" style="background-color: #691A32;">
                         <div>
-                            <img src="../Img/Logo.png" alt="Logo" width="230" height="50" class="d-inline-block align-text-top" />
+                            <img src="../Img/C5Invent.png" alt="Logo" width="300" height="150" class="d-inline-block align-text-top" />
+                            <%--<img src="../Img/Logo.png" alt="Logo" width="230" height="50" class="d-inline-block align-text-top" />--%>
                         </div>
                         <br />
                         <div class="form-floating mb-3">

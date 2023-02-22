@@ -8,7 +8,7 @@
     </style>
 
     <h1 align="center"> Completa el campo</h1>
-    <asp:Image ID="imgcrearUsuario" runat="server" src="https://cdn-icons-png.flaticon.com/512/455/455764.png" With="80" Height="80" ImageAlign="Right"/>
+    <asp:Image ID="imgcrearUsuario" runat="server" src="/Img/Update_user.png" With="120" Height="120" ImageAlign="left"/>
     <br />
 
 

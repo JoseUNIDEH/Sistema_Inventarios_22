@@ -15,15 +15,6 @@ namespace Sistema_Inventarios_22.usuarioSoporteTecnico
     {
 
         /// <summary>
-        /// Control imgregistromasivo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgregistromasivo;
-
-        /// <summary>
         /// Control iconocargar.
         /// </summary>
         /// <remarks>

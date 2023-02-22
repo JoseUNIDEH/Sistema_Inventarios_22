@@ -2,25 +2,25 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="container" align="center">
-        <h2 align="center">Completa la informacion de la nueva direccion</h2><br />
+        <h2 align="center">Completa la información de la nueva dirección</h2><br />
 
         <div class="row jaling-items-start">
             <div class="col" runat="server" align="left">
-                <asp:Label ID="lbdireccion" runat="server" Text="Direccion"></asp:Label>
+                <asp:Label ID="lbdireccion" runat="server" Text="Dirección"></asp:Label>
                 <asp:DropDownList ID="ddldireccion" runat="server"></asp:DropDownList>
                 <asp:TextBox ID="tbdireccion" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
         </div>
         <div class="row jaling-items-start">
             <div class="col" runat="server" align="left">
-                <asp:Label ID="lbsubdireccion" runat="server" Text="Subdireccion"></asp:Label>
+                <asp:Label ID="lbsubdireccion" runat="server" Text="Subdirección"></asp:Label>
                 <asp:DropDownList ID="ddlsubdireccion" runat="server"></asp:DropDownList>
                 <asp:TextBox ID="tbsubdireccion" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
         </div>
         <div class="row jaling-items-start">
             <div class="col" runat="server" align="left">
-                <asp:Label ID="lbubicacion" runat="server" Text="Ubicacion"></asp:Label>
+                <asp:Label ID="lbubicacion" runat="server" Text="Ubicación"></asp:Label>
                 <asp:DropDownList ID="ddlubicacion" runat="server"></asp:DropDownList>
                 <asp:TextBox ID="tbubicacion" type="text" runat="server" Class="input"></asp:TextBox>
             </div>
@@ -38,7 +38,7 @@
 
      <template id="my-template">
       <swal-title id="msjexito">
-        Direccion agregada correctamente al catalogo!
+        Direccion agregada correctamente al catálogo!
       </swal-title>
       <swal-icon type="success" color="green"></swal-icon>
       <swal-button id="confirm" type="confirm">
